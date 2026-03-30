@@ -1,15 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({ carts, setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
 
     const paymentCard = () => {
         setCarts([])
+          toast.info('Payment Successful')
     }
     
     const cardDelete = (item) => {
         const filterArray = carts.filter(c => c.id !== item.id)
         setCarts(filterArray);
+        toast.warning('Item remove from cart')
 
     }
 

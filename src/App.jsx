@@ -18,13 +18,13 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar carts={carts}></Navbar>
 
       <CardsDiscription></CardsDiscription>
 
       <div className="tabs tabs-box justify-center bg-transparent mt-7">
         <input type="radio" onClick={()=>setActiveTab('products')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked />
-        <input type="radio" onClick={()=>setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Cart" />
+        <input type="radio" onClick={()=>setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} />
       </div>
 
       {activeTab==="products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
