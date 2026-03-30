@@ -29,7 +29,7 @@ function App() {
 
       {activeTab==="products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
 
-     { activeTab==="carts" && <Cart carts={carts}></Cart>}
+     { activeTab==="carts" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
     </>
   )
