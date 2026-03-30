@@ -13,7 +13,8 @@ const modelPromise = getModels()
 
 
 function App() {
-  const [activeTab, setActiveTab] = useState('products')
+  const [activeTab, setActiveTab] = useState('products');
+  const [carts, setCarts]= useState([]);
 
   return (
     <>
@@ -26,9 +27,9 @@ function App() {
         <input type="radio" onClick={()=>setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Cart" />
       </div>
 
-      {activeTab==="products" && <Models modelPromise={modelPromise}></Models>}
+      {activeTab==="products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
 
-     { activeTab==="carts" && <Cart></Cart>}
+     { activeTab==="carts" && <Cart carts={carts}></Cart>}
 
     </>
   )

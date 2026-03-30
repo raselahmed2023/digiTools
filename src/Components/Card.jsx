@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
-const Card = ({model}) => {
-     const [isSubscibre, setIsSubcribe] = useState(false);
-       const handleSubcription = () => {
+const Card = ({ model, carts, setCarts }) => {
+    const [isSubscibre, setIsSubcribe] = useState(false);
+
+
+    const handleSubcription = () => {
         setIsSubcribe(true);
-  }
+        setCarts([...carts, model])
+    }
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-sm ">
