@@ -8,6 +8,7 @@ import Hero from './Components/Hero'
 import Stat from './Components/Stat'
 import Started from './Components/Started'
 import Pack from './Components/Pack'
+import WorkFlow from './Components/WorkFlow'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -42,6 +43,8 @@ function App() {
      <Started></Started>
 
      <Pack></Pack>
+
+     <WorkFlow></WorkFlow>
 
     </>
   )
