@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-black'>
 
             <div className=" mx-auto container">
-                <footer className="footer sm:footer-horizontal mx-auto container text-white p-10">
+                <footer className="footer sm:footer-horizontal mx-auto container text-white p-15">
                     <aside>
                         <h2 className='text-3xl font-bold'>DigiTools</h2>
                         <p className='text-gray-600'> Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.

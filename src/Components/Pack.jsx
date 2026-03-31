@@ -12,7 +12,7 @@ const Pack = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto mt-10'>
 
                 <div className="card w-96 bg-base-100 shadow rounded-2xl">
-                    <div className="card-body">
+                    <div className="card-body flex flex-col">
 
                         <div className=" space-y-2">
                             <h2 className="text-2xl font-bold">Starter</h2>
@@ -37,7 +37,7 @@ const Pack = () => {
                                 <span>1 project per month</span>
                             </li>
                         </ul>
-                        <div className="mt-6">
+                        <div className="mt-auto pt-6">
                             <button className="btn btn-primary btn-block rounded-full">Get Started Free</button>
                         </div>
                     </div>

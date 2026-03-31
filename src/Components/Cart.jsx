@@ -23,7 +23,7 @@ const Cart = ({ carts, setCarts }) => {
                 <h2 className='text-4xl font-bold mb-10'>Your Cart</h2>
 
                 {
-                    carts.length === 0 ? <p className='text-center text-xl text-gray-400'>Your Card is Empty. <br />Buy Some Tools for more productive days.</p> :
+                    carts.length === 0 ? <p className='text-center text-xl text-gray-400'>Your Cart is Empty. <br />Buy Some Tools for more productive days.</p> :
                         <>
                             {carts.map(item => <div key={item.id} className=' rounded-lg p-3 shadow gap-5 mb-2 flex justify-between items-center'>
                                 <div className='flex items-center gap-3 shadows-sm'>

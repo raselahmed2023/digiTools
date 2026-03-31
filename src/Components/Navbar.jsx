@@ -20,7 +20,7 @@ const Navbar = ({ carts }) => {
                             <li><a>FAQ</a></li>
                         </ul>
                     </div>
-                    <a className="text-3xl text-[#9514FA]">DigiTools</a>
+                    <a className="text-3xl font-bold text-[#9514FA]">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
