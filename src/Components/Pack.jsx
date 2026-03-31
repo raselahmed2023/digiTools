@@ -11,7 +11,7 @@ const Pack = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto mt-10'>
 
-                <div className="card w-96 bg-base-100 shadow-sm">
+                <div className="card w-96 bg-base-100 shadow rounded-2xl">
                     <div className="card-body">
 
                         <div className=" space-y-2">
@@ -45,8 +45,9 @@ const Pack = () => {
 
 
                 {/* 2nd card */}
-                <div className="card w-96 bg-base-100 shadow-sm">
-                    <div className="card-body">
+                <div className="card w-96 bg-base-100 shadow indicator rounded-2xl ">
+                     <span className="indicator-item indicator-center badge badge-warning text-black">Most Popular</span>
+                    <div className="card-body bg-purple-500 text-white rounded-2xl">
                         <div className=" space-y-2">
                             <h2 className="text-2xl font-bold">Pro</h2>
                             <p>Best for professionals</p>
@@ -83,7 +84,7 @@ const Pack = () => {
                             </li>
                         </ul>
                         <div className="mt-6">
-                            <button className="btn btn-primary btn-block rounded-full">Start Pro Trial</button>
+                            <button className="btn btn-primary btn-block rounded-full bg-white text-blue-900 border-none">Start Pro Trial</button>
                         </div>
                     </div>
                 </div>
@@ -91,7 +92,7 @@ const Pack = () => {
 
                 {/* 3rd Card */}
 
-                <div className="card w-96 bg-base-100 shadow-sm">
+                <div className="card w-96 bg-base-100 shadow rounded-2xl">
                     <div className="card-body">
                         <div className=" space-y-2">
                             <h2 className="text-2xl font-bold">Enterprise</h2>
