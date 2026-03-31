@@ -9,6 +9,7 @@ import Stat from './Components/Stat'
 import Started from './Components/Started'
 import Pack from './Components/Pack'
 import WorkFlow from './Components/WorkFlow'
+import Footer from './Components/Footer'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -45,6 +46,8 @@ function App() {
      <Pack></Pack>
 
      <WorkFlow></WorkFlow>
+
+     <Footer></Footer>
 
     </>
   )
