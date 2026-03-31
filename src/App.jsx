@@ -6,6 +6,8 @@ import CardsDiscription from './Components/CardsDiscription'
 import { useState } from 'react'
 import Hero from './Components/Hero'
 import Stat from './Components/Stat'
+import Started from './Components/Started'
+import Pack from './Components/Pack'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -36,6 +38,10 @@ function App() {
       {activeTab==="products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
 
      { activeTab==="carts" && <Cart carts={carts} setCarts={setCarts}></Cart>}
+
+     <Started></Started>
+
+     <Pack></Pack>
 
     </>
   )
