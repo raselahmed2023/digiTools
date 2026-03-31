@@ -20,7 +20,7 @@ const modelPromise = getModels()
 
 function App() {
   const [activeTab, setActiveTab] = useState('products');
-  const [carts, setCarts]= useState([]);
+  const [carts, setCarts] = useState([]);
 
   return (
     <>
@@ -32,22 +32,22 @@ function App() {
 
       <CardsDiscription></CardsDiscription>
 
-      <div className="tabs tabs-box justify-center bg-transparent mt-7">
-        <input type="radio" onClick={()=>setActiveTab('products')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked />
-        <input type="radio" onClick={()=>setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} />
+      <div className="tabs tabs-box justify-center bg-transparent mt-7" >
+        <input type="radio" onClick={() => setActiveTab('products')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked />
+        <input type="radio" onClick={() => setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} />
       </div>
 
-      {activeTab==="products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
+      {activeTab === "products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
 
-     { activeTab==="carts" && <Cart carts={carts} setCarts={setCarts}></Cart>}
+      {activeTab === "carts" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
-     <Started></Started>
+      <Started></Started>
 
-     <Pack></Pack>
+      <Pack></Pack>
 
-     <WorkFlow></WorkFlow>
+      <WorkFlow></WorkFlow>
 
-     <Footer></Footer>
+      <Footer></Footer>
 
     </>
   )
