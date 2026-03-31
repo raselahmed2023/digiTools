@@ -30,7 +30,7 @@ const Hero = () => {
                             software—all in one place. Start creating faster today.<br />Explore Products
                         </p>
                         <button className="btn btn-primary rounded-full">Explore Products</button>
-                        <button class="btn btn-outline btn-primary rounded-full ml-3"> <img src={Play} alt="" />Watch Demo</button>
+                        <button className="btn btn-outline btn-primary rounded-full ml-3"> <img src={Play} alt="" />Watch Demo</button>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ const Started = () => {
 
                     <div className="card w-96 bg-base-100 shadow-sm p-4">
                         <div className="card-body text-center gap-4 items-center">
-                            <div class="badge badge-primary rounded-full absolute top-3 right-3 py-3">01</div>
+                            <div className="badge badge-primary rounded-full absolute top-3 right-3 py-3">01</div>
                             <div className='justify-items-center border-none rounded-full p-4 bg-purple-100'><img src={User} alt="" /></div>
                             <h2 className="card-title">Create Account</h2>
                             <p>Sign up for free in seconds. No credit card required to get started.</p>
@@ -28,7 +28,7 @@ const Started = () => {
 
                     <div className="card w-96 bg-base-100 shadow-sm p-4">
                         <div className="card-body text-center gap-4 items-center">
-                            <div class="badge badge-primary rounded-full absolute top-3 right-3 py-3">02</div>
+                            <div className="badge badge-primary rounded-full absolute top-3 right-3 py-3">02</div>
                             <div className='justify-items-center border-none rounded-full p-4 bg-purple-100'><img src={pack} alt="" /></div>
                             <h2 className="card-title">Choose Products</h2>
                             <p>Browse our catalog and select the tools that fit your needs.</p>
@@ -39,7 +39,7 @@ const Started = () => {
 
                     <div className="card w-96 bg-base-100 shadow-sm p-4">
                         <div className="card-body text-center gap-4 items-center">
-                            <div class="badge badge-primary rounded-full absolute top-3 right-3 py-3">03</div>
+                            <div className="badge badge-primary rounded-full absolute top-3 right-3 py-3">03</div>
                             <div className='justify-items-center border-none rounded-full p-4 bg-purple-100'><img src={rocket} alt="" /></div>
                             <h2 className="card-title">Start Creating</h2>
                             <p>Download and start using your premium tools immediately.</p>
