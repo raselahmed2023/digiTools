@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar'
 import Cart from './Components/Cart'
 import CardsDiscription from './Components/CardsDiscription'
 import { useState } from 'react'
+import Hero from './Components/Hero'
+import Stat from './Components/Stat'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -19,6 +21,10 @@ function App() {
   return (
     <>
       <Navbar carts={carts}></Navbar>
+
+      <Hero></Hero>
+
+      <Stat></Stat>
 
       <CardsDiscription></CardsDiscription>
 
