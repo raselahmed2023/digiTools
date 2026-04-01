@@ -33,11 +33,11 @@ function App() {
       <CardsDiscription></CardsDiscription>
 
       <div className="tabs tabs-box justify-center bg-transparent mt-7" >
-        <input type="radio" onClick={() => setActiveTab('products')} name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked />
-        <input type="radio" onClick={() => setActiveTab('carts')} name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} />
+        <input type="radio" onClick={() => setActiveTab('products')} name="my_tabs_1" className={`tab rounded-full w-40 ${activeTab==='products' ?'bg-purple-500 text-white':''} `} aria-label="Products" defaultChecked />
+        <input type="radio" onClick={() => setActiveTab('carts')} name="my_tabs_1" className={`tab rounded-full w-40 ${activeTab==='carts'? 'bg-purple-500 text-white' :''} `} aria-label={`Cart (${carts.length})`} />
       </div>
 
-      {activeTab === "products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
+      {activeTab === "products" && <Models  modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models>}
 
       {activeTab === "carts" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
