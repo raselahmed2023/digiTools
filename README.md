@@ -11,3 +11,7 @@ There are three way to purchase any tools. Create account, choose product and st
 
 You can remove any product before payment. We have some simple and transparent tools like pro and enterprise those are 
 demandable and highly modern tools. Also some are free for trail period before making an buying decision. 
+
+
+//live link
+https://digitools-react.netlify.app/
