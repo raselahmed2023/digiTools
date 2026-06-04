@@ -1,8 +1,8 @@
-# 🚀 DigiTools
+#  DigiTools
 
 DigiTools is a modern digital tools marketplace where users can explore, purchase, and access premium productivity tools. The platform offers a transparent pricing model, free trials, and a seamless purchasing experience for both individuals and businesses.
 
-## 🌐 Live Demo
+##  Live Demo
 
 🔗 Live Site: https://digitools-react.netlify.app/
 
@@ -35,7 +35,7 @@ DigiTools is a modern digital tools marketplace where users can explore, purchas
 * Growing collection of digital productivity tools
 * Suitable for professionals, students, and businesses
 
-### 📱 Responsive Design
+###  Responsive Design
 
 * Mobile-friendly user interface
 * Optimized for desktop, tablet, and mobile devices
@@ -102,7 +102,7 @@ npm run dev
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Payment gateway integration
 * User reviews and ratings
@@ -110,14 +110,3 @@ npm run dev
 * Personalized recommendations
 * User dashboard and purchase history
 
----
-
-## 👨‍💻 Author
-
-**Rasel Ahmed**
-
-Portfolio: https://portfolio-lac-iota-96.vercel.app/
-
-LinkedIn: https://www.linkedin.com/in/rasel-ahmed06/
-
-GitHub: https://github.com/raselahmed2023
