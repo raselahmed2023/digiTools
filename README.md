@@ -6,7 +6,6 @@ DigiTools is a modern digital tools marketplace where users can explore, purchas
 
 🔗 Live Site: https://digitools-react.netlify.app/
 
-🔗 Client Repository: YOUR_GITHUB_REPO_LINK
 
 ---
 
